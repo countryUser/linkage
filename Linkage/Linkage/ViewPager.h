@@ -10,11 +10,16 @@
 
 @interface ViewPager : UIView
 
-@property(nonatomic, strong) NSMutableArray *titlesArr; //标题数组
-@property(nonatomic, strong) NSMutableArray *viewsArr; //view数组
+
+
+@property(nonatomic, strong) NSDictionary *contentValues;
 
 @property(nonatomic, assign) NSInteger *currentIndex; //当前显示第几项
 
+-(instancetype)initWithFrame:(CGRect)frame withTitles:(NSArray *)titles withViews:(NSArray *)views;
 
+/** 添加 标题 和 view **/
+-(void)addTitle:(NSString *)title withView:(UIView *)view;
+-(void)addTitles:(NSArray *)array withViews:(NSArray *)views;
 
 @end
