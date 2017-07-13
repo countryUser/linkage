@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8409ED701F170AAD009DD123 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8409ED6F1F170AAD009DD123 /* Test1ViewController.m */; };
 		841722CD1EE917CC005A91B4 /* ViewPager.m in Sources */ = {isa = PBXBuildFile; fileRef = 841722CC1EE917CC005A91B4 /* ViewPager.m */; };
 		84FB10B91EE7FE58003E2FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB10B81EE7FE58003E2FA8 /* main.m */; };
 		84FB10BC1EE7FE58003E2FA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB10BB1EE7FE58003E2FA8 /* AppDelegate.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8409ED6E1F170AAD009DD123 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		8409ED6F1F170AAD009DD123 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
 		841722CB1EE917CC005A91B4 /* ViewPager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPager.h; sourceTree = "<group>"; };
 		841722CC1EE917CC005A91B4 /* ViewPager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPager.m; sourceTree = "<group>"; };
 		84FB10B41EE7FE58003E2FA8 /* Linkage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Linkage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +75,8 @@
 				84FB10C51EE7FE58003E2FA8 /* LaunchScreen.storyboard */,
 				84FB10C81EE7FE58003E2FA8 /* Info.plist */,
 				84FB10B71EE7FE58003E2FA8 /* Supporting Files */,
+				8409ED6E1F170AAD009DD123 /* Test1ViewController.h */,
+				8409ED6F1F170AAD009DD123 /* Test1ViewController.m */,
 			);
 			path = Linkage;
 			sourceTree = "<group>";
@@ -156,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841722CD1EE917CC005A91B4 /* ViewPager.m in Sources */,
+				8409ED701F170AAD009DD123 /* Test1ViewController.m in Sources */,
 				84FB10BF1EE7FE58003E2FA8 /* ViewController.m in Sources */,
 				84FB10BC1EE7FE58003E2FA8 /* AppDelegate.m in Sources */,
 				84FB10B91EE7FE58003E2FA8 /* main.m in Sources */,
